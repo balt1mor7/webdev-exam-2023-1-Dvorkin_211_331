@@ -1,0 +1,127 @@
+:root {
+    --color1: #eed70d;
+    --color2: #e91a0c;
+    --color3: #b3b2ad;
+    --color4: #867200;
+}
+
+img{
+    width: 70px;
+    height: 70px;
+}
+
+h1 {
+    font-size: 56px;
+    font-weight: 700px;
+}
+
+h2 {
+    font-size: 56px;
+    font-weight: 700px;
+}
+
+h5 {
+    font-size: 30px;
+    font-weight: 700px;
+}
+p {
+    font-size: 25px;
+    font-weight: 700px;
+}
+
+header {
+    padding: 20px 0;
+}
+
+header,
+footer {
+    background: var(--color1);
+    background: linear-gradient(to right, var(--color1) 0%, var(--color2) 100%);
+}
+
+.itd_inf {
+    background-color: var(--color3);
+    width: 150px;
+    height: 50px;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 30px auto 30px;
+    transition: all 0.2s ease;
+}
+
+.itd_inf:hover {
+    background-color: var(--color4);
+}
+
+.btn-itd {
+    display: block;
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 5px 20px;
+    color: var(--bs-white);
+    background-color: var(--color4);
+}
+
+.btn-itd:hover {
+    color: var(--bs-white);
+    background-color: var(--color3);
+}
+
+.color1 {
+    color: var(--color1);
+}
+
+.color2 {
+    color: var(--color2);
+}
+
+.bg1 {
+    background-color: var(--color1);
+}
+
+.bg2 {
+    background-color: var(--color2);
+}
+
+.about,
+.path,
+.company,
+.find,
+.order {
+    background-color: rgb(255, 255, 255);
+}
+
+.about i {
+    font-size: 25px;
+    color: var(--color2);
+}
+
+.itd_circle {
+    margin: 0 auto 15px;
+    width: 70px;
+    height: 70px;
+    border: 3px solid var(--color2);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line {
+    width: 100px;
+    height: 3px;
+    background-color: var(--color1);
+    margin: 15px auto 30px;
+}
+
+.company h5 {
+    padding: 25px;
+    border: 3px solid var(--color2);
+}
+
+footer {
+    padding: 30px 0;
+}
